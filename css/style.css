@@ -1,0 +1,237 @@
+.story-header .title {
+    padding: 0 17px;
+}
+
+.story-header .author {
+    font-size: .85em;
+    text-transform: uppercase;
+}
+
+.home-feature-text {padding: 0 17px;}
+
+#home-features h1 {
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    font-size: 2em;
+    margin: 0 0 .2em;
+}
+#home-features h2 {
+    margin: 0 0 1em;
+    font-size: 1.1em;
+}
+
+@media only screen and (min-width: 640px) {
+    #home-features h1 { font-size: 3em;}
+    #home-features h2 { font-size: 1.4em;}
+    .home-feature-text {padding: 0;}
+}
+
+.cycle-slide a:hover h1 {
+    text-decoration: underline;
+}
+
+#home-features .cycle-slide:after {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+
+    content: " ";
+    display: block;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,.6) 100%);
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,.6) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+}
+
+
+/*HEART TUNE-UP FEATURE*/
+.story-header.heart-tune-up {
+    background-size: cover;
+    background-image: url(../images/heart-tune-up-feature.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.heart-tune-up .headline {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background-image: url(../images/heart-tune-up-feature-headline.png);
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.heart-tune-up .title {
+    width: 580px;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+
+.heart-tune-up .headline h1 {
+    font-family: Georgia;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 100px;
+    letter-spacing: 5px;
+    visibility: hidden;
+}
+
+.heart-tune-up .headline h1:first-of-type {
+    font-style: italic;
+    text-transform: initial;
+    font-weight: 900;
+    font-size: 105px;
+    letter-spacing: -5px;
+}
+
+.heart-tune-up .title h2 {
+    width: 90%;
+    font-size: 25px;
+    margin: auto;
+    color: #7f7a62;
+}
+
+.heart-tune-up .title p {
+    font-size: 17px;
+    color: #7f7a62;
+}
+
+.heart-tune-up .inner .credits {
+    color: #929497;
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.heart-tune-up .story-content .text-bigger {
+    font-family: Georgia;
+    font-weight: 400;
+}
+
+.heart-tune-up .story-content p strong {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.heart-tune-up .story-interrupt {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    margin: 50px 0px 75px 0px;
+}
+
+.heart-tune-up .story-interrupt:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.heart-tune-up .story-interrupt .col-1-3 {
+    width: 33.33%;
+    border-right: 1px solid #fff;
+    float: left;
+    overflow: hidden;
+}
+
+.heart-tune-up .story-interrupt img {
+    width: 100%;
+}
+
+.heart-tune-up .story-content h2 {
+    font-family: Georgia;
+    text-transform: initial;
+    font-weight: 400;
+    color: #7b98a1;
+}
+
+.heart-tune-up .story-content p.pullquote {
+    font-family: Georgia;
+    text-transform: initial;
+    font-weight: 400;
+    font-size: 40px;
+    color: #ca340b;
+    font-style: normal;
+    line-height: 50px;
+    hanging-punctuation: first;
+    margin: 25px 0px;
+}
+
+.heart-tune-up .story-content p.adma-description {
+    font-family: Georgia;
+    text-transform: initial;
+    font-weight: 100;
+    font-size: 25px;
+    color: #ca340b;
+    font-style: normal;
+    line-height: 32px
+}
+
+.heart-tune-up .row:first-of-type:before  {
+    content: " ";
+    display: inline-block;
+    width: 102px;
+    height: 100%;
+    background-image: url(../images/texture-1.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    position: absolute;
+    margin-top: -40px;
+    right: 20px;
+}
+
+/*
+.heart-tune-up .row:first-of-type:after  {
+    content: " ";
+    display: block;
+    width: 102px;
+    height: 100%;
+    background-image: url(../images/texture-2.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    position: absolute;
+    margin-top: -40px;
+    right: 20px;
+}*/
+
+.come-in {
+    opacity: 0;
+    animation: come-in 2s ease .2s forwards;
+    transform: translateY(100px);
+}
+
+.already-visible {
+    opacity: 1;
+    animation: none;
+    transform: translateY(0px);
+}
+
+@keyframes come-in {
+    0% {opacity: 0; transform: translateY(100px);}
+    100% {opacity: 1; transform: translateY(0px);}
+}
+
+@media only screen and (min-width: 1280px) {
+    .heart-tune-up .title {
+        top: 35%;
+        right: 15%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    .heart-tune-up .title {
+        top: 20%;
+        right: 5%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+    .heart-tune-up .title {
+        top: 20%;
+        right: 5%;
+    }
+}
