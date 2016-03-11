@@ -247,6 +247,26 @@
 body {
 }
 
+.center-of-excellence  h2:nth-child(5n-3) {
+    color: #f16a25;
+}
+
+.center-of-excellence h2:nth-child(5n-2) {
+    color: #fabb3e;
+}
+
+.center-of-excellence h2:nth-child(5n-1) {
+    color: #eb3d22;
+}
+
+.center-of-excellence h2:nth-child(5n+0) {
+    color: #024a69;
+}
+
+.center-of-excellence h2:nth-child(5n+1) {
+    color: #1fb8d1;
+}
+
 .story-header.center-of-excellence {
     background-size: 800px, cover;
     background-image: url(../images/center-of-excellence-feature-circle.png), url(../images/center-of-excellence-feature-bg.jpg);
@@ -255,11 +275,9 @@ body {
 }
 
 .center-of-excellence .headline {
-    width: 1031px;
-    height: 340px;
-    position: absolute;
-    left: 10%;
-    top: 34.5%;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
 }
 
 .center-of-excellence .headline h1 {
@@ -274,65 +292,113 @@ body {
 .center-of-excellence .title {
     position: absolute;
     color: #fff;
-    top: 68%;
+    top: 28%;
     left: 12%;
-    max-width: 1000px;
+    max-width: 1031px;
     min-width: 400px;
 }
+
+.center-of-excellence .title h2 {
+   font-size: 20px;
+    color: #fff;
+}
+
 
 .center-of-excellence .author {
     color: #1cb8d1;
 }
 
 
-.center-of-excellence .section-1:before  {
-    content: " ";
-    display: inline-block;
-    width: 777px;
-    height: 100%;
-    background-image: url(../images/center-of-excellence-section1-top.png);
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
-    position: absolute;
-    right: -100%;
-    z-index: -5;
+.center-of-excellence .story-content p.pullquote {
+    font-family: 'Roboto', sans-serif;
+    text-transform: initial;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 42px;
+    color: #1bb7d0;
+    line-height: 45px;
+    margin: 25px 0px;
+    letter-spacing: -1px;
 }
 
-.center-of-excellence .story-content p.pullquote {
-    font-family: 'Source Sans Pro', sans-serif;
-    text-transform: initial;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 50px;
-    color: #1bb7d0;
-    font-style: normal;
-    line-height: 55px;
-    margin: 25px 0px;
+.center-of-excellence .story-content p.orange {
+    color: #f16a25;
 }
+
 
 .center-of-excellence h2  {
     font-family: 'Oxygen';
 }
 
-.center-of-excellence .story-content h2:nth-child(5n-3) {
-    color: #f16a25;
+.center-of-excellence .right-col {
+    position: absolute;
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
 }
 
-.center-of-excellence .story-content h2:nth-child(5n-2) {
-    color: #fabb3e;
+.center-of-excellence .right-col .inner {
+    position: absolute;
+    right: -80px;
+    padding-left: 65%;
 }
 
-.center-of-excellence .story-content h2:nth-child(5n-1) {
-    color: #eb3d22;
+.center-of-excellence .right-col-2 {
+    position: absolute;
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
 }
 
-.center-of-excellence .story-content h2:nth-child(5n+0) {
-    color: #024a69;
+.center-of-excellence .right-col-2 .inner {
+    position: absolute;
+    right: -20px;
+    padding-left: 65%;
+    padding-top: 10%;
 }
 
-.center-of-excellence .story-content h2:nth-child(5n+1) {
-    color: #1fb8d1;
+.center-of-excellence .left-col {
+    position: absolute;
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
 }
+
+.center-of-excellence .left-col .inner {
+    position: absolute;
+    padding-right: 65%;
+    padding-left: 30px;
+}
+
+.center-of-excellence .right-col-3 {
+    position: absolute;
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.center-of-excellence .right-col-3 .inner {
+    position: absolute;
+    padding-left: 68%;
+    padding-top: 0;
+}
+
+.center-of-excellence .right-col-4 {
+    position: absolute;
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.center-of-excellence .right-col-4 .inner {
+    position: absolute;
+    right: -20px;
+    padding-left: 65%;
+    padding-top: 10%;
+}
+
+
+
 
 .center-of-excellence .story-interrupt {
     background: linear-gradient(#c6e7f2, #0f84b3);
@@ -342,7 +408,733 @@ body {
 }
 
 .center-of-excellence .story-interrupt .infographic {
-    width: 1280px;
+    max-width: 1400px;
+    height: 3800px;
     padding: 100px 0px;
     margin: auto;
+    background-image: url(../images/center-of-excellence-infographic-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 50px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
 }
+
+.center-of-excellence .infographic .section-1 {
+    margin: auto;
+    text-align: center;
+    width: 600px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 4%;
+}
+
+.center-of-excellence .infographic .info-title {
+    background-image: url(../images/center-of-excellence-infographic-title.png);
+    background-repeat: no-repeat;
+    background-position: center 35px;
+    padding-bottom: 50px;
+}
+
+.center-of-excellence .infographic .info-title h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #ee3d23;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.center-of-excellence .infographic .info-title h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 55px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    margin: 0;
+    line-height: 20px;
+}
+
+.center-of-excellence .infographic .section-1 p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #00486a;
+    font-size: 18px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 20px;
+    padding: 0px 90px;
+    margin-top: -18px;
+}
+
+.center-of-excellence .infographic .section-1 p.author {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #f16a21;
+    font-size: 14px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-top: -25px;
+}
+
+.center-of-excellence .infographic .section-2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    /*top: 21%;*/
+    margin: auto;
+    margin-top: 48%;
+    text-align: center;
+    width: 800px;
+}
+
+.center-of-excellence .infographic .section-2 .students-image {
+    float: left;
+}
+
+.center-of-excellence .infographic .section-2 .students-numbers {
+    margin: 0;
+    float: left;
+    background-image: url(../images/center-of-excellence-infographic-students-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 400px;
+    margin-top: 10%;
+}
+
+.center-of-excellence .infographic .section-2 .students-numbers h3 {
+   font-family: 'Roboto Condensed', sans-serif;
+    color: #00486a;
+    font-size: 16px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.center-of-excellence .infographic .section-2 .students-numbers h1 {
+   font-family: 'Roboto', sans-serif;
+    color: #fdbd2c;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin: 0;
+}
+
+.center-of-excellence .infographic .section-2 .students-numbers h2 {
+   font-family: 'Roboto Condensed', sans-serif;
+    color: #ee3d23;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.center-of-excellence .infographic .section-2:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+    
+}
+
+.center-of-excellence .infographic .section-3 {
+    position: absolute;
+    left: 35%;
+    right: 0;
+    /*top: 33%;*/
+    margin: auto;
+    margin-top: 83%;
+    text-align: center;
+    width: 50%;
+}
+
+.center-of-excellence .infographic .section-3 p {
+   text-align: left;
+    color: #00486a;
+}
+
+.center-of-excellence .infographic .section-4 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 94%;
+    text-align: left;
+}
+
+.center-of-excellence .infographic .section-4 .national-rank {
+    width: 350px;
+    background-color: #fff;
+    box-shadow: -10px 10px 0px #007e96;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.center-of-excellence .infographic .section-4 .national-rank h1 {
+    font-family: 'Roboto', sans-serif;
+    background-color: #00486a;
+    color: #fdbd2c;
+    font-size: 45px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    padding-left: 22px;
+    padding-top: 12px;
+    margin-top: 0px;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.center-of-excellence .infographic .section-4 .national-rank h5 {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ee3d23;
+    color: #fdbd2c;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    padding-left: 9px;
+    padding-top: 6px;
+    margin-top: 0px;
+    margin-left: -18px;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.center-of-excellence .infographic .section-4 .national-rank h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #00486a;
+    font-weight: 400;
+    font-size: 35px;
+    padding-top: 6px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+.center-of-excellence .infographic .section-4 .national-rank p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #00486a;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.center-of-excellence .infographic .section-4 .national-rank p:nth-child(4) {
+    font-size: 22.5px;
+    margin-top: 10px;
+}
+
+.center-of-excellence .infographic .section-4 .national-rank p:nth-child(5) {
+    font-family: 'Roboto', sans-serif;
+    color: #00486a;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.center-of-excellence .infographic .section-5 {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    margin-top: 90%;
+}
+
+.center-of-excellence .infographic .section-5 .nationality {
+    width: 360px;
+    color: #fff;
+}
+
+.center-of-excellence .infographic .section-5 .nationality h1 {
+    background-image: url(../images/center-of-excellence-infographic-nationality.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    padding-top: 170px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.center-of-excellence .infographic .section-5 .nationality p {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+}
+
+.center-of-excellence .infographic .section-5 .nationality p:nth-child(2) {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.center-of-excellence .infographic .section-5 .nationality p:nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: -5px;
+    color: #00486a;
+}
+
+.center-of-excellence .infographic .section-5 .nationality p:nth-child(4) {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.center-of-excellence .infographic .section-5 .nationality p:nth-child(5) {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 2px;
+    color: #00486a;
+}
+
+.center-of-excellence .infographic .section-5 .nationality p b {
+    color: #f16a21;
+    font-weight: inherit;
+    font-weight: 800;
+}
+
+.center-of-excellence .infographic .section-6 {
+    position: absolute;
+    left: 10%;
+    right: 0;
+    margin-top: 123%;
+    width: 40%;
+}
+
+.center-of-excellence .infographic .section-6 .online h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: initial;
+    font-weight: 100;
+    font-size: 120px;
+    margin: 0;
+    color: #ee3d23;
+    letter-spacing: -5px;
+    margin-bottom: 20px; 
+}
+
+.center-of-excellence .infographic .section-6 .online img {
+    margin-left: 5%;
+}
+
+.center-of-excellence .infographic .section-6 .online p {
+    line-height: 5px;
+}
+
+.center-of-excellence .infographic .section-6 .online p:nth-child(2) {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #00486a;
+    font-size: 20px;
+}
+
+.center-of-excellence .infographic .section-6 .online p:nth-child(3) {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    font-size: 35px;
+}
+
+.center-of-excellence .infographic .section-7 {
+    position: absolute;
+    right: 0;
+    margin-top: 130%;
+    width: 300px;
+    left: 70%;
+}
+
+.center-of-excellence .infographic .section-7 h1 {
+    text-align: center;
+    width: 100%;
+    background-color: #ee3d23;
+    box-shadow: -10px 10px 0px #007e96;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.center-of-excellence .infographic .section-7 .funding-research {
+    text-align: center;
+    width: 100%;
+    background-color: #fdbd2c;
+    box-shadow: -10px 10px 0px #007e96;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+}
+
+.center-of-excellence .infographic .section-7 .funding-research p {
+    color: #fff;
+    line-height: 16px;
+    margin: 0;
+    padding: 10px;
+}
+
+.center-of-excellence .infographic .section-7 .funding-research h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    line-height: 0;
+    margin: 30px 0px;
+    padding: 0;
+    font-size: 50px;
+    color: #ee3d23;
+    font-weight: 800;
+}
+
+.center-of-excellence .infographic .section-7 .funding-research p:nth-child(1) {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.center-of-excellence .infographic .section-7 .funding-research p:nth-child(3) {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.center-of-excellence .infographic .section-8 {
+    position: absolute;
+    left: 13%;
+    right: 0;
+    margin-top: 150%;
+}
+
+.center-of-excellence .infographic .section-8 .pass-rate-1 {
+   width: 25%; 
+}
+
+.center-of-excellence .infographic .section-8 .pass-rate-1 h1 {
+    background-image: url(../images/center-of-excellence-infographic-cloud1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Roboto', sans-serif;
+    text-transform: initial;
+    font-weight: 300;
+    font-size: 80px;
+    margin: 0;
+    color: #ee3d23;
+    letter-spacing: -5px;
+    margin-bottom: 20px; 
+    text-align: center;
+    padding: 30px 0px 20px 40px ;
+    margin-bottom: 0px;
+}
+
+.center-of-excellence .infographic .section-8 .pass-rate-1 p {
+    text-align: left;
+    color: #00486a;
+}
+
+.center-of-excellence .infographic .section-9 {
+    position: absolute;
+    left: 5%;
+    right: 0;
+    margin-top: 170%;
+}
+
+.center-of-excellence .infographic .section-9 .pass-rate-2 { 
+    width: 25%;
+}
+
+
+.center-of-excellence .infographic .section-9 .pass-rate-2 h1 {
+    background-image: url(../images/center-of-excellence-infographic-cloud2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Roboto', sans-serif;
+    text-transform: initial;
+    font-weight: 300;
+    font-size: 60px;
+    margin: 0;
+    color: #00486a;
+    letter-spacing: -5px;
+    margin-bottom: 20px; 
+    text-align: center;
+    padding: 30px 80px 20px 0px ;
+    margin-bottom: 0px;
+}
+
+.center-of-excellence .infographic .section-9 .pass-rate-2 p {
+    text-align: left;
+    color: #00486a;
+}
+
+.center-of-excellence .infographic .section-10 {
+    position: absolute;
+    left: 40%;
+    right: 0;
+    margin-top: 153%;
+    width: 25%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.center-of-excellence .infographic .section-10 h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: -10px;
+}
+
+.center-of-excellence .infographic .section-10 h1 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120px;
+    margin: 0px;
+}
+
+.center-of-excellence .infographic .section-10 h3 {
+   font-family: 'Roboto Condensed', sans-serif;
+    color: #00486a;
+    font-size: 16px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin-top: 5px;
+}
+
+.center-of-excellence .infographic .section-11 {
+    position: absolute;
+    left: 42%;
+    right: 0;
+    margin-top: 172%;
+    width: 35%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.center-of-excellence .infographic .section-11 h1 {
+    color: #ff9d27;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    margin: 0px;
+    text-align: left;
+}
+
+.center-of-excellence .infographic .section-11 p {
+    text-align: left;
+    color: #00486a;
+}
+
+.center-of-excellence .infographic .section-12 {
+    position: absolute;
+    left: 20%;
+    right: 0;
+    margin-top: 188%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.center-of-excellence .infographic .section-12 img {
+    float: left;
+    margin-right: 5%;
+}
+
+.center-of-excellence .infographic .section-12 p {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 800;
+    padding-top: 90px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.center-of-excellence .infographic .section-12 h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #00486a;
+    font-size: 16px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin: 0;
+    margin-bottom: 0px;
+}
+
+.center-of-excellence .infographic .section-12 h1 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 52px;
+    font-weight: 800;
+    color: #fff;
+    margin-top: 0px;
+}
+
+.center-of-excellence .infographic .section-13  { 
+    position: absolute;
+    left: 72%;
+    right: 0;
+    margin-top: 200%;
+    width: 350px;
+    background-image: url(../images/center-of-excellence-infographic-badge.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+
+
+.center-of-excellence .infographic .section-13 h3 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+    margin: 0;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 8px; 
+    text-align: center;
+    padding: 33% 0px 0px 0px;
+}
+
+.center-of-excellence .infographic .section-13 h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 0;
+    color: #f63700;
+    letter-spacing: 2px;
+    margin-bottom: 20px; 
+    text-align: center;
+    padding: 0px 0px 50% 0px;
+}
+
+.center-of-excellence .infographic .section-14 {
+    position: absolute;
+    left: 34%;
+    right: 0;
+    margin-top: 213%;
+    text-align: center;
+    width: 40%;
+}
+
+.center-of-excellence .infographic .section-14 p {
+   text-align: left;
+    color: #00486a;
+}
+
+.center-of-excellence .infographic .section-14 h2 {
+   text-align: left;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.center-of-excellence .infographic .section-15 {
+    position: absolute;
+    left: 64%;
+    right: 0;
+    margin-top: 226%;
+    width: 300px;
+    text-align: left;
+}
+
+.center-of-excellence .infographic .section-15 h4 {
+    width: 100%;
+    background-color: #fdbd2c;
+    box-shadow: -10px 10px 0px #0a303f;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    letter-spacing: .5px;
+}
+
+.center-of-excellence .infographic .section-15 .initiatives {
+    width: 100%;
+    background-color: #14cfdd;
+    box-shadow: -10px 10px 0px #0a303f;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.center-of-excellence .infographic .section-15 .initiatives li {
+    line-height: 20px;
+}
+
+.center-of-excellence .infographic .section-16 {
+    position: absolute;
+    left: 10%;
+    right: 0;
+    margin-top: 237%;
+    width: 700px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.center-of-excellence .infographic .section-16 img {
+    float: left;
+    margin-right: 5%;
+}
+
+.center-of-excellence .infographic .section-16 h1 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    margin: 0px;
+    text-align: left;
+    padding-top: 4%;
+}
+
+.center-of-excellence .infographic .section-16 p:nth-child(3) {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    margin: 0;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.center-of-excellence .infographic .section-16 p:nth-child(4) {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 52px;
+    margin: 0;
+    color: #ffbe2c;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.center-of-excellence .infographic .section-16 p:nth-child(5) {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #00486a;
+    font-size: 16px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+
+
+
+
