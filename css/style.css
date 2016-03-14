@@ -73,7 +73,7 @@
 }
 
 .heart-tune-up .headline h1 {
-    font-family: Georgia;
+    font-family: Georgia, serif;
     text-transform: uppercase;
     font-weight: 100;
     font-size: 100px;
@@ -108,7 +108,7 @@
 }
 
 .heart-tune-up .story-content .text-bigger {
-    font-family: Georgia;
+    font-family: Georgia, serif;
     font-weight: 400;
 }
 
@@ -143,14 +143,14 @@
 }
 
 .heart-tune-up .story-content h2 {
-    font-family: Georgia;
+    font-family: Georgia, serif;
     text-transform: initial;
     font-weight: 400;
     color: #7b98a1;
 }
 
 .heart-tune-up .story-content p.pullquote {
-    font-family: Georgia;
+    font-family: Georgia, serif;
     text-transform: initial;
     font-weight: 400;
     font-size: 40px;
@@ -162,7 +162,7 @@
 }
 
 .heart-tune-up .story-content p.adma-description {
-    font-family: Georgia;
+    font-family: Georgia, serif;
     text-transform: initial;
     font-weight: 100;
     font-size: 25px;
@@ -281,7 +281,7 @@ body {
 }
 
 .center-of-excellence .headline h1 {
-    font-family: Georgia;
+    font-family: Georgia, serif;
     text-transform: uppercase;
     font-weight: 100;
     font-size: 100px;
@@ -310,7 +310,7 @@ body {
 
 
 .center-of-excellence .story-content p.pullquote {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     text-transform: initial;
     font-weight: 500;
     font-style: italic;
@@ -327,7 +327,7 @@ body {
 
 
 .center-of-excellence h2  {
-    font-family: 'Oxygen';
+    font-family: 'Oxygen', Helvetica, sans-serif;
 }
 
 .center-of-excellence .right-col {
@@ -399,7 +399,7 @@ body {
 
 
 
-
+/*INFOGRAPHIC*/
 .center-of-excellence .story-interrupt {
     background: linear-gradient(#c6e7f2, #0f84b3);
     width: 100%;
@@ -416,66 +416,68 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center 50px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     position: relative;
 }
 
 .center-of-excellence .infographic .section-1 {
     margin: auto;
     text-align: center;
-    width: 600px;
+    width: 38%;
     position: absolute;
     right: 0;
     left: 0;
     top: 4%;
+    font-size: 10px;
 }
 
 .center-of-excellence .infographic .info-title {
     background-image: url(../images/center-of-excellence-infographic-title.png);
     background-repeat: no-repeat;
-    background-position: center 35px;
-    padding-bottom: 50px;
+    background-position: center 3.5em;
+    background-size: contain;
+    padding-bottom: 10%;
 }
 
 .center-of-excellence .infographic .info-title h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     color: #ee3d23;
-    font-size: 40px;
+    font-size: 4em;
     font-weight: 800;
 }
 
 .center-of-excellence .infographic .info-title h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     color: #fff;
-    font-size: 55px;
+    font-size: 5.5em;
     font-weight: 800;
-    letter-spacing: 5px;
+    letter-spacing: .05em;
     margin: 0;
-    line-height: 20px;
+    line-height: .4em;
 }
 
 .center-of-excellence .infographic .section-1 p {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
     color: #00486a;
-    font-size: 18px;
+    font-size: 2em;
     font-style: italic;
     text-transform: uppercase;
     font-weight: 400;
-    letter-spacing: 3px;
-    line-height: 20px;
-    padding: 0px 90px;
-    margin-top: -18px;
+    letter-spacing: .03em;
+    line-height: 1.2em;
+    padding: 0 20%;
+    margin-top: -4%;
 }
 
 .center-of-excellence .infographic .section-1 p.author {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
     color: #f16a21;
-    font-size: 14px;
+    font-size: 1.4em;
     font-style: italic;
     text-transform: uppercase;
     font-weight: 400;
-    letter-spacing: 3px;
-    margin-top: -25px;
+    letter-spacing: .08em;
+    margin-top: -4.5%;
 }
 
 .center-of-excellence .infographic .section-2 {
@@ -486,7 +488,8 @@ body {
     margin: auto;
     margin-top: 48%;
     text-align: center;
-    width: 800px;
+    width: 60%;
+    font-size: 10px;
 }
 
 .center-of-excellence .infographic .section-2 .students-image {
@@ -499,37 +502,38 @@ body {
     background-image: url(../images/center-of-excellence-infographic-students-bg.png);
     background-repeat: no-repeat;
     background-position: center center;
-    width: 400px;
+    background-size: contain;
+    width: 45%;
     margin-top: 10%;
 }
 
 .center-of-excellence .infographic .section-2 .students-numbers h3 {
-   font-family: 'Roboto Condensed', sans-serif;
+   font-family: 'Roboto Condensed', Helvetica, sans-serif;
     color: #00486a;
-    font-size: 16px;
+    font-size: 1.6em;
     font-style: normal;
     text-transform: uppercase;
     font-weight: 400;
-    letter-spacing: 0px;
+    letter-spacing: 0em;
 }
 
 .center-of-excellence .infographic .section-2 .students-numbers h1 {
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', Helvetica, sans-serif;
     color: #fdbd2c;
-    font-size: 60px;
+    font-size: 6em;
     font-style: normal;
     font-weight: 700;
-    letter-spacing: 0px;
+    letter-spacing: 0em;
     margin: 0;
 }
 
 .center-of-excellence .infographic .section-2 .students-numbers h2 {
-   font-family: 'Roboto Condensed', sans-serif;
+   font-family: 'Roboto Condensed', Helvetica, sans-serif;
     color: #ee3d23;
-    font-size: 50px;
+    font-size: 5em;
     font-style: normal;
     font-weight: 200;
-    letter-spacing: 2px;
+    letter-spacing: .06em;
     margin: 0;
 }
 
@@ -550,11 +554,13 @@ body {
     margin-top: 83%;
     text-align: center;
     width: 50%;
+    font-size: 10px;
 }
 
 .center-of-excellence .infographic .section-3 p {
    text-align: left;
     color: #00486a;
+    font-size: 1.8em;
 }
 
 .center-of-excellence .infographic .section-4 {
@@ -563,83 +569,84 @@ body {
     right: 0;
     margin-top: 94%;
     text-align: left;
+    font-size: 10px;
 }
 
 .center-of-excellence .infographic .section-4 .national-rank {
-    width: 350px;
+    width: 25%;
     background-color: #fff;
-    box-shadow: -10px 10px 0px #007e96;
-    border-radius: 10px;
-    padding: 10px;
+    box-shadow: -1em 1em 0em #007e96;
+    border-radius: 1em;
+    padding: .5%;
 }
 
 .center-of-excellence .infographic .section-4 .national-rank h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     background-color: #00486a;
     color: #fdbd2c;
-    font-size: 45px;
-    width: 70px;
-    height: 70px;
+    font-size: 4.5em;
+    width: 1.7em;
+    height: 1.7em;
     border-radius: 100%;
-    padding-left: 22px;
-    padding-top: 12px;
-    margin-top: 0px;
+    padding-left: 8%;
+    padding-top: 4%;
+    margin-top: 0em;
     float: left;
-    margin-bottom: 0px;
+    margin-bottom: 0em;
 }
 
 .center-of-excellence .infographic .section-4 .national-rank h5 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     background-color: #ee3d23;
     color: #fdbd2c;
-    font-size: 18px;
-    width: 35px;
-    height: 35px;
+    font-size: 1.8em;
+    width: 2em;
+    height: 2em;
     border-radius: 100%;
-    padding-left: 9px;
-    padding-top: 6px;
-    margin-top: 0px;
-    margin-left: -18px;
+    padding-left: 3%;
+    padding-top: 2%;
+    margin-top: 0;
+    margin-left: -1em;
     float: left;
-    margin-bottom: 0px;
+    margin-bottom: 0em;
 }
 
 .center-of-excellence .infographic .section-4 .national-rank h2 {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
     color: #00486a;
     font-weight: 400;
-    font-size: 35px;
-    padding-top: 6px;
-    margin-top: 30px;
-    margin-bottom: 0px;
+    font-size: 3.5em;
+    padding-top: 4.5%;
+    margin-top: .8em;
+    margin-bottom: 0em;
     text-align: right;
 }
 
 .center-of-excellence .infographic .section-4 .national-rank p {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
     color: #00486a;
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 20px;
-    padding-left: 0px;
-    padding-top: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: 25px;
+    font-size: 2em;
+    padding-left: 0;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.3em;
     text-align: center;
 }
 
 .center-of-excellence .infographic .section-4 .national-rank p:nth-child(4) {
-    font-size: 22.5px;
-    margin-top: 10px;
+    font-size: 2.25em;
+    margin-top: .5em;
 }
 
 .center-of-excellence .infographic .section-4 .national-rank p:nth-child(5) {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     color: #00486a;
     font-weight: 800;
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 2.2em;
 }
 
 .center-of-excellence .infographic .section-5 {
@@ -647,10 +654,11 @@ body {
     left: 50%;
     right: 0;
     margin-top: 90%;
+    font-size: 10px;
 }
 
 .center-of-excellence .infographic .section-5 .nationality {
-    width: 360px;
+    width: 50%;
     color: #fff;
 }
 
@@ -658,48 +666,48 @@ body {
     background-image: url(../images/center-of-excellence-infographic-nationality.png);
     background-repeat: no-repeat;
     background-size: contain;
-    font-family: 'Roboto', sans-serif;
-    font-size: 80px;
-    padding-top: 170px;
-    padding-bottom: 30px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 8em;
+    padding-top: 48%;
+    padding-bottom: 5%;
     text-align: center;
     margin-bottom: 0;
 }
 
 .center-of-excellence .infographic .section-5 .nationality p {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
     text-align: center;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
-    line-height: 35px;
+    line-height: 1em;
 }
 
 .center-of-excellence .infographic .section-5 .nationality p:nth-child(2) {
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 2.6em;
     font-weight: 800;
-    letter-spacing: 2px;
+    letter-spacing: .1em;
 }
 .center-of-excellence .infographic .section-5 .nationality p:nth-child(3) {
-    font-size: 20px;
+    font-size: 2em;
     font-weight: 400;
-    letter-spacing: 2px;
-    margin-top: -5px;
+    letter-spacing: .1em;
+    margin-top: .1em;
     color: #00486a;
 }
 
 .center-of-excellence .infographic .section-5 .nationality p:nth-child(4) {
-    font-size: 40px;
+    font-size: 4em;
     font-weight: 500;
-    letter-spacing: 2px;
+    letter-spacing: .07em;
 }
 
 .center-of-excellence .infographic .section-5 .nationality p:nth-child(5) {
-    font-size: 30px;
+    font-size: 3em;
     font-weight: 500;
-    letter-spacing: 2px;
-    margin-top: 2px;
+    letter-spacing: .05em;
+    margin-top: 0em;
     color: #00486a;
 }
 
@@ -715,17 +723,18 @@ body {
     right: 0;
     margin-top: 123%;
     width: 40%;
+    font-size: 10px;
 }
 
 .center-of-excellence .infographic .section-6 .online h1 {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
     text-transform: initial;
     font-weight: 100;
-    font-size: 120px;
+    font-size: 12em;
     margin: 0;
     color: #ee3d23;
-    letter-spacing: -5px;
-    margin-bottom: 20px; 
+    letter-spacing: -.05em;
+    margin-bottom: 3%; 
 }
 
 .center-of-excellence .infographic .section-6 .online img {
@@ -733,82 +742,84 @@ body {
 }
 
 .center-of-excellence .infographic .section-6 .online p {
-    line-height: 5px;
+    line-height: .2em;
 }
 
 .center-of-excellence .infographic .section-6 .online p:nth-child(2) {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
     text-transform: uppercase;
     color: #00486a;
-    font-size: 20px;
+    font-size: 2em;
 }
 
 .center-of-excellence .infographic .section-6 .online p:nth-child(3) {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: 600;
     color: #fff;
-    font-size: 35px;
+    font-size: 3.5em;
 }
 
 .center-of-excellence .infographic .section-7 {
     position: absolute;
     right: 0;
     margin-top: 130%;
-    width: 300px;
+    width: 20%;
     left: 70%;
+    font-size: 10px;
 }
 
 .center-of-excellence .infographic .section-7 h1 {
     text-align: center;
     width: 100%;
     background-color: #ee3d23;
-    box-shadow: -10px 10px 0px #007e96;
-    border-radius: 10px;
-    padding: 10px;
+    box-shadow: -.2em .2em 0em #007e96;
+    border-radius: .2em;
+    padding: 3%;
     color: #fff;
-    margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
+    margin-bottom: 7%;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 4em;
 }
 
 .center-of-excellence .infographic .section-7 .funding-research {
     text-align: center;
     width: 100%;
     background-color: #fdbd2c;
-    box-shadow: -10px 10px 0px #007e96;
-    border-radius: 10px;
-    padding: 10px;
+    box-shadow: -.8em .8em 0em #007e96;
+    border-radius: .8em;
+    padding: 1em;
     color: #fff;
 }
 
 .center-of-excellence .infographic .section-7 .funding-research p {
     color: #fff;
-    line-height: 16px;
+    line-height: .8em;
     margin: 0;
-    padding: 10px;
+    padding: 3%;
 }
 
 .center-of-excellence .infographic .section-7 .funding-research h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     color: #fff;
     line-height: 0;
-    margin: 30px 0px;
+    margin: 15% 0%;
     padding: 0;
-    font-size: 50px;
+    font-size: 5em;
     color: #ee3d23;
     font-weight: 800;
 }
 
 .center-of-excellence .infographic .section-7 .funding-research p:nth-child(1) {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
     text-transform: uppercase;
-    font-size: 26px;
+    font-size: 2.6em;
 }
 
 .center-of-excellence .infographic .section-7 .funding-research p:nth-child(3) {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 1.8em;
 }
 
 .center-of-excellence .infographic .section-8 {
@@ -816,6 +827,7 @@ body {
     left: 13%;
     right: 0;
     margin-top: 150%;
+    font-size: 10px;
 }
 
 .center-of-excellence .infographic .section-8 .pass-rate-1 {
@@ -826,22 +838,22 @@ body {
     background-image: url(../images/center-of-excellence-infographic-cloud1.png);
     background-repeat: no-repeat;
     background-size: contain;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     text-transform: initial;
     font-weight: 300;
-    font-size: 80px;
+    font-size: 8em;
     margin: 0;
     color: #ee3d23;
-    letter-spacing: -5px;
-    margin-bottom: 20px; 
+    letter-spacing: -.05em;
     text-align: center;
-    padding: 30px 0px 20px 40px ;
-    margin-bottom: 0px;
+    padding: 10% 0% 5% 10%;
+    margin-bottom: 0%;
 }
 
 .center-of-excellence .infographic .section-8 .pass-rate-1 p {
     text-align: left;
     color: #00486a;
+    font-size: 1.9em;
 }
 
 .center-of-excellence .infographic .section-9 {
@@ -849,6 +861,7 @@ body {
     left: 5%;
     right: 0;
     margin-top: 170%;
+    font-size: 10px;
 }
 
 .center-of-excellence .infographic .section-9 .pass-rate-2 { 
@@ -860,22 +873,22 @@ body {
     background-image: url(../images/center-of-excellence-infographic-cloud2.png);
     background-repeat: no-repeat;
     background-size: contain;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     text-transform: initial;
     font-weight: 300;
-    font-size: 60px;
+    font-size: 6em;
     margin: 0;
     color: #00486a;
-    letter-spacing: -5px;
-    margin-bottom: 20px; 
+    letter-spacing: -.05em;
     text-align: center;
-    padding: 30px 80px 20px 0px ;
+    padding: 12% 15% 10% 0%;
     margin-bottom: 0px;
 }
 
 .center-of-excellence .infographic .section-9 .pass-rate-2 p {
     text-align: left;
     color: #00486a;
+    font-size: 1.9em;
 }
 
 .center-of-excellence .infographic .section-10 {
@@ -885,32 +898,33 @@ body {
     margin-top: 153%;
     width: 25%;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 10px;
 }
 
 .center-of-excellence .infographic .section-10 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     color: #fff;
-    font-size: 26px;
-    margin-bottom: -10px;
+    font-size: 2.6em;
+    margin-bottom: -5%;
 }
 
 .center-of-excellence .infographic .section-10 h1 {
     color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 120px;
-    margin: 0px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 12em;
+    margin: 0%;
 }
 
 .center-of-excellence .infographic .section-10 h3 {
-   font-family: 'Roboto Condensed', sans-serif;
+   font-family: 'Roboto Condensed', Helvetica, sans-serif;
     color: #00486a;
-    font-size: 16px;
+    font-size: 1.6em;
     font-style: normal;
     text-transform: uppercase;
     font-weight: 400;
-    letter-spacing: 0px;
-    margin-top: 5px;
+    letter-spacing: 0em;
+    margin-top: 1%;
 }
 
 .center-of-excellence .infographic .section-11 {
@@ -920,20 +934,22 @@ body {
     margin-top: 172%;
     width: 35%;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 10px;
 }
 
 .center-of-excellence .infographic .section-11 h1 {
     color: #ff9d27;
-    font-family: 'Roboto', sans-serif;
-    font-size: 80px;
-    margin: 0px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 8em;
+    margin: 0%;
     text-align: left;
 }
 
 .center-of-excellence .infographic .section-11 p {
     text-align: left;
     color: #00486a;
+    font-size: 1.9em;
 }
 
 .center-of-excellence .infographic .section-12 {
@@ -942,7 +958,8 @@ body {
     right: 0;
     margin-top: 188%;
     text-align: left;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 10px;
 }
 
 .center-of-excellence .infographic .section-12 img {
@@ -951,73 +968,73 @@ body {
 }
 
 .center-of-excellence .infographic .section-12 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     text-transform: uppercase;
-    font-size: 34px;
+    font-size: 3.4em;
     font-weight: 800;
-    padding-top: 90px;
+    padding-top: 8%;
     color: #fff;
-    margin-bottom: 0px;
+    margin-bottom: 0%;
 }
 
 .center-of-excellence .infographic .section-12 h3 {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
     color: #00486a;
-    font-size: 16px;
+    font-size: 1.6em;
     font-style: normal;
     text-transform: uppercase;
     font-weight: 400;
-    letter-spacing: 0px;
-    margin: 0;
-    margin-bottom: 0px;
+    letter-spacing: 0em;
+    margin: 0%;
 }
 
 .center-of-excellence .infographic .section-12 h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     text-transform: uppercase;
-    font-size: 52px;
+    font-size: 5.2em;
     font-weight: 800;
     color: #fff;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .center-of-excellence .infographic .section-13  { 
     position: absolute;
     left: 72%;
     right: 0;
-    margin-top: 200%;
-    width: 350px;
+    margin-top: 197%;
+    width: 25%;
     background-image: url(../images/center-of-excellence-infographic-badge.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
+    font-size: 10px;
 }
 
 
 .center-of-excellence .infographic .section-13 h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 14px;
+    font-size: 1.4em;
     margin: 0;
     color: #fff;
-    letter-spacing: 2px;
-    margin-bottom: 8px; 
+    letter-spacing: .1em;
+    margin-bottom: 2%; 
     text-align: center;
-    padding: 33% 0px 0px 0px;
+    padding: 33% 0% 0% 0%;
 }
 
 .center-of-excellence .infographic .section-13 h1 {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 3em;
     margin: 0;
     color: #f63700;
-    letter-spacing: 2px;
-    margin-bottom: 20px; 
+    letter-spacing: .1em;
+    margin-bottom: 20%; 
     text-align: center;
-    padding: 0px 0px 50% 0px;
+    padding: 0% 0% 50% 0%;
 }
 
 .center-of-excellence .infographic .section-14 {
@@ -1027,17 +1044,20 @@ body {
     margin-top: 213%;
     text-align: center;
     width: 40%;
+    font-size: 10px;
 }
 
 .center-of-excellence .infographic .section-14 p {
-   text-align: left;
+    text-align: left;
     color: #00486a;
+    font-size: 1.9em;
 }
 
 .center-of-excellence .infographic .section-14 h2 {
-   text-align: left;
+    text-align: left;
     color: #fff;
-    margin-bottom: 0px;
+    font-size: 2.5em;
+    margin-bottom: 0%;
 }
 
 .center-of-excellence .infographic .section-15 {
@@ -1045,8 +1065,9 @@ body {
     left: 64%;
     right: 0;
     margin-top: 226%;
-    width: 300px;
+    width: 28%;
     text-align: left;
+    font-size: 10px;
 }
 
 .center-of-excellence .infographic .section-15 h4 {
@@ -1054,12 +1075,12 @@ body {
     background-color: #fdbd2c;
     box-shadow: -10px 10px 0px #0a303f;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5%;
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 6%;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    letter-spacing: .5px;
+    font-size: 1.8em;
+    letter-spacing: .05em;
 }
 
 .center-of-excellence .infographic .section-15 .initiatives {
@@ -1067,14 +1088,15 @@ body {
     background-color: #14cfdd;
     box-shadow: -10px 10px 0px #0a303f;
     border-radius: 10px;
-    padding: 10px;
+    padding: 3%;
     color: #fff;
-    font-size: 15px;
-    margin-bottom: 0px;
+    font-size: 1.5em;
+    margin-bottom: 0;
 }
 
 .center-of-excellence .infographic .section-15 .initiatives li {
-    line-height: 20px;
+    line-height: 1.2em;
+    margin-bottom: 4%;
 }
 
 .center-of-excellence .infographic .section-16 {
@@ -1082,11 +1104,12 @@ body {
     left: 10%;
     right: 0;
     margin-top: 237%;
-    width: 700px;
+    width: 50%;
     text-align: left;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     text-transform: uppercase;
     color: #fff;
+    font-size: 10px;
 }
 
 .center-of-excellence .infographic .section-16 img {
@@ -1096,44 +1119,145 @@ body {
 
 .center-of-excellence .infographic .section-16 h1 {
     color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 80px;
-    margin: 0px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 8em;
+    margin: 0;
     text-align: left;
     padding-top: 4%;
 }
 
 .center-of-excellence .infographic .section-16 p:nth-child(3) {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 18px;
+    font-size: 1.8em;
     margin: 0;
     color: #fff;
-    letter-spacing: 2px;
+    letter-spacing: .1em;
 }
 
 .center-of-excellence .infographic .section-16 p:nth-child(4) {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: 100;
-    font-size: 52px;
+    font-size: 5.2em;
     margin: 0;
     color: #ffbe2c;
-    letter-spacing: 2px;
-    line-height: 1;
+    letter-spacing: .03em;
+    line-height: 1em;
 }
 
 .center-of-excellence .infographic .section-16 p:nth-child(5) {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
     color: #00486a;
-    font-size: 16px;
+    font-size: 1.6em;
     font-style: normal;
     text-transform: uppercase;
     font-weight: 400;
-    letter-spacing: 0px;
+    letter-spacing: 0em;
 }
 
+
+/*RESPONSIVE*/
+@media only screen and (max-width: 1380px) {
+    .center-of-excellence .tree {
+        visibility: hidden;
+    }
+    
+    .center-of-excellence .story-interrupt .infographic {
+    height: 270vw;
+    }
+    
+    .center-of-excellence .infographic .section-1 {
+        font-size: 8px;
+    }
+    
+    .center-of-excellence .infographic .section-2 {
+        font-size: 8px;
+    }
+    
+    .center-of-excellence .infographic .section-3 {
+        font-size: 8px;
+    }
+    
+    .center-of-excellence .infographic .section-4 {
+        font-size: 8px;
+    }
+    
+    .center-of-excellence .infographic .section-5 {
+        font-size: 8px;
+    }
+    
+    .center-of-excellence .infographic .section-6 {
+        font-size: 8px;
+    }
+    
+    .center-of-excellence .infographic .section-7 {
+        font-size: 8px;
+    }
+    
+    .center-of-excellence .infographic .section-8 {
+        font-size: 8px;
+    }
+    
+    .center-of-excellence .infographic .section-9 {
+        font-size: 8px;
+    }
+    
+    .center-of-excellence .infographic .section-10 {
+        font-size: 8px;
+    }
+    
+    .center-of-excellence .infographic .section-11 {
+        font-size: 8px;
+    }
+    
+    .center-of-excellence .infographic .section-12 {
+        font-size: 8px;
+    }
+    
+    .center-of-excellence .infographic .section-13 {
+        font-size: 8px;
+    }
+    
+    .center-of-excellence .infographic .section-14 {
+        font-size: 8px;
+    }
+    
+    .center-of-excellence .infographic .section-15 {
+        font-size: 8px;
+    }
+    
+    .center-of-excellence .infographic .section-16 {
+        font-size: 8px;
+    }
+       
+}
+
+@media only screen and (max-width: 1110px) {
+    .center-of-excellence .infographic {
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .center-of-excellence .uta-illustration {
+        visibility: hidden;
+    }
+    
+    .center-of-excellence .right-col-2 {
+        position: relative;
+        height: auto;
+    }
+
+    .center-of-excellence .right-col-2 .inner {
+        position: relative;
+        right: 0;
+        padding-left: 0%;
+        padding-top: 0%;
+        text-align: center;
+    }
+}
 
 
 
