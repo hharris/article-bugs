@@ -1,42 +1,49 @@
 $(document).ready(function(){
 
-    /**var section1h = $('.center-of-excellence .story-interrupt .infographic .section-1').height();
+    /**function infoheight() {
+        var section1h = $('.center-of-excellence .story-interrupt .infographic .section-1').height();
+
+        var section2h = $('.center-of-excellence .story-interrupt .infographic .section-2').height();
+
+        var section3h = $('.center-of-excellence .story-interrupt .infographic .section-3').height();
+
+        var section4h = $('.center-of-excellence .story-interrupt .infographic .section-4').height();
+
+        var section5h = $('.center-of-excellence .story-interrupt .infographic .section-5').height();
+
+        var section6h = $('.center-of-excellence .story-interrupt .infographic .section-6').height();
+
+        var section7h = $('.center-of-excellence .story-interrupt .infographic .section-7').height();
+
+        var section8h = $('.center-of-excellence .story-interrupt .infographic .section-8').height();
+
+        var section9h = $('.center-of-excellence .story-interrupt .infographic .section-9').height();
+
+        var section10h = $('.center-of-excellence .story-interrupt .infographic .section-10').height();
+
+        var section11h = $('.center-of-excellence .story-interrupt .infographic .section-11').height();
+
+        var section12h = $('.center-of-excellence .story-interrupt .infographic .section-12').height();
+
+        var section13h = $('.center-of-excellence .story-interrupt .infographic .section-13').height();
+
+        var section14h = $('.center-of-excellence .story-interrupt .infographic .section-14').height();
+
+        var section15h = $('.center-of-excellence .story-interrupt .infographic .section-15').height();
+
+        var section16h = $('.center-of-excellence .story-interrupt .infographic .section-16').height();
+
+        var totalh = section1h+section2h+section3h+section4h+section5h+section6h+section7h+section8h+section9h+section10h+section11h+section12h+section13h+section14h+section15h
+
+        $('.center-of-excellence .story-interrupt .infographic').css('height', totalh+'px');
+    }
     
-    var section2h = $('.center-of-excellence .story-interrupt .infographic .section-2').height();
-    
-    var section3h = $('.center-of-excellence .story-interrupt .infographic .section-3').height();
-    
-    var section4h = $('.center-of-excellence .story-interrupt .infographic .section-4').height();
-    
-    var section5h = $('.center-of-excellence .story-interrupt .infographic .section-5').height();
-    
-    var section6h = $('.center-of-excellence .story-interrupt .infographic .section-6').height();
-    
-    var section7h = $('.center-of-excellence .story-interrupt .infographic .section-7').height();
-    
-    var section8h = $('.center-of-excellence .story-interrupt .infographic .section-8').height();
-    
-    var section9h = $('.center-of-excellence .story-interrupt .infographic .section-9').height();
-    
-    var section10h = $('.center-of-excellence .story-interrupt .infographic .section-10').height();
-    
-    var section11h = $('.center-of-excellence .story-interrupt .infographic .section-11').height();
-    
-    var section12h = $('.center-of-excellence .story-interrupt .infographic .section-12').height();
-    
-    var section13h = $('.center-of-excellence .story-interrupt .infographic .section-13').height();
-    
-    var section14h = $('.center-of-excellence .story-interrupt .infographic .section-14').height();
-    
-    var section15h = $('.center-of-excellence .story-interrupt .infographic .section-15').height();
-    
-    var section16h = $('.center-of-excellence .story-interrupt .infographic .section-16').height();
-    
-    var totalh = section1h+section2h+section3h+section4h+section5h+section6h+section3h+section7h+section8h+section9h+section10h+section11h+section12h+section13h+section14h+section15h+section16h
-    
-    $('.center-of-excellence .story-interrupt .infographic').css('height', totalh+'px');
+    $(infoheight);
+    $(window).resize(infoheight);
     **/
     
+    $(infoheight);
+    $(window).resize(infoheight);
     
     (function($) {
 

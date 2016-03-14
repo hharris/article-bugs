@@ -405,12 +405,13 @@ body {
     width: 100%;
     height: auto;
     margin: 50px 0px 75px 0px;
+    
 }
 
 .center-of-excellence .story-interrupt .infographic {
     max-width: 1400px;
     height: 3800px;
-    padding: 100px 0px;
+    padding: 100px 0px 0px 0px;
     margin: auto;
     background-image: url(../images/center-of-excellence-infographic-bg.png);
     background-size: contain;
@@ -1165,7 +1166,7 @@ body {
     }
     
     .center-of-excellence .story-interrupt .infographic {
-    height: 270vw;
+    /*height: 270vw;*/
     }
     
     .center-of-excellence .infographic .section-1 {
@@ -1234,9 +1235,69 @@ body {
        
 }
 
-@media only screen and (max-width: 1110px) {
-    .center-of-excellence .infographic {
-        background-color: red;
+@media only screen and (max-width: 1110px) {    
+    .center-of-excellence .infographic .section-1 {
+        font-size: 10px;
+    }
+    
+    .center-of-excellence .infographic .section-2 {
+        font-size: 10px;
+    }
+    
+    .center-of-excellence .infographic .section-3 {
+        font-size: 10px;
+    }
+    
+    .center-of-excellence .infographic .section-4 {
+        font-size: 10px;
+    }
+    
+    .center-of-excellence .infographic .section-5 {
+        font-size: 10px;
+    }
+    
+    .center-of-excellence .infographic .section-6 {
+        font-size: 10px;
+    }
+    
+    .center-of-excellence .infographic .section-7 {
+        font-size: 10px;
+    }
+    
+    .center-of-excellence .infographic .section-8 {
+        font-size: 10px;
+    }
+    
+    .center-of-excellence .infographic .section-9 {
+        font-size: 10px;
+    }
+    
+    .center-of-excellence .infographic .section-10 {
+        font-size: 10px;
+    }
+    
+    .center-of-excellence .infographic .section-11 {
+        font-size: 10px;
+    }
+    
+    .center-of-excellence .infographic .section-12 {
+        font-size: 10px;
+    }
+    
+    .center-of-excellence .infographic .section-13 {
+        font-size: 10px;
+    }
+    
+    .center-of-excellence .infographic .section-14 {
+        font-size: 10px;
+    }
+    
+    .center-of-excellence .infographic .section-15 {
+        font-size: 10px;
+    }
+    
+    .center-of-excellence .infographic .section-16 {
+        font-size: 10px;
     }
 }
 
@@ -1254,6 +1315,232 @@ body {
         position: relative;
         right: 0;
         padding-left: 0%;
+        padding-top: 0%;
+        text-align: center;
+    }
+    
+     .center-of-excellence .story-interrupt .infographic {
+        background-image: none;
+         height: 1700vw;
+    }
+    
+    .center-of-excellence .infographic .section-1 {
+        font-size: 2vw;
+        width: 100%;
+        margin-top: -10%;
+    }
+    
+    .center-of-excellence .infographic .section-2 {
+        font-size: 2.6vw;
+        width: 100%;
+        margin-top: 80%;
+    }
+    
+    .center-of-excellence .infographic .section-2 .students-image {
+        width: 100%;
+    }
+    
+    .center-of-excellence .infographic .section-2 .students-numbers {
+        width: 100%;
+        margin-top: -1%;
+    }
+    
+    .center-of-excellence .infographic .section-3 {
+        font-size: 2vw;
+        width: 100%;
+        margin-top: 225%;
+        left: 0%;
+        right: 0;
+        padding: 0% 5%;
+    }
+    
+    .center-of-excellence .infographic .section-4 {
+        margin-top: 280%;
+        font-size: 2.5vw;
+    }
+
+    .center-of-excellence .infographic .section-4 .national-rank {
+        width: 95%;
+        margin: auto;
+        padding: 5%;
+    }
+    
+    .center-of-excellence .infographic .section-5 {
+        font-size: 10px;
+        width: 100%;
+    }
+    
+    .center-of-excellence .infographic .section-5 {
+        left: 0;
+        margin-top: 360%;
+        font-size: 2.2vw;
+        width: 100%;
+    }
+
+    .center-of-excellence .infographic .section-5 .nationality {
+        width: 100%;
+    }
+    
+    .center-of-excellence .infographic .section-5 .nationality h1 {
+        background-position: center top;
+        padding-top: 40%;
+    }   
+    
+    .center-of-excellence .infographic .section-6 {
+        font-size: 2.5vw;
+        width: 100%;
+        margin-top: 490%;
+        left: 0;
+        padding: 5%;
+    }
+
+    .center-of-excellence .infographic .section-6 .online img {
+        margin-left: 10%;
+    }
+    
+    .center-of-excellence .infographic .section-6 .online p:nth-child(2) {
+        font-size: 1.85em;
+        margin-top: 6%;
+    }
+
+    .center-of-excellence .infographic .section-6 .online p:nth-child(3) {
+        font-size: 2.6em;
+    }
+    
+    .center-of-excellence .infographic .section-7 {
+        font-size: 3vw;
+        width: 95%;
+        margin: auto;
+        margin-top: 580%;
+        left: 0;
+    }
+    
+    .center-of-excellence .infographic .section-8 {
+        font-size: 2.5vw;
+        width: 100%;
+        margin-top: 700%;
+        left: 0;
+        padding: 5%;
+    }
+    
+    .center-of-excellence .infographic .section-8 .pass-rate-1 {
+        width: 100%; 
+    }
+    
+    .center-of-excellence .infographic .section-9 {
+        font-size: 2.5vw;
+        width: 100%;
+        margin-top: 790%;
+        left: 0;
+        padding: 5%;
+    }
+    
+    .center-of-excellence .infographic .section-9 .pass-rate-2 {
+        width: 100%; 
+    }
+    
+    .center-of-excellence .infographic .section-10 {
+        font-size: 2.5vw;
+        width: 100%;
+        margin-top: 880%;
+        left: 0;
+    }
+    
+    .center-of-excellence .infographic .section-11 {
+        font-size: 2.5vw;
+        width: 100%;
+        margin-top: 960%;
+        left: 0;
+        padding: 5%;
+    }
+    
+    .center-of-excellence .infographic .section-11 h1 {
+        text-align: center;
+    }
+    
+    .center-of-excellence .infographic .section-11 p {
+        text-align: center;
+    }
+    
+    .center-of-excellence .infographic .section-12 {
+        font-size: 2.5vw;
+        width: 100%;
+        margin-top: 1040%;
+        left: 0;
+        padding: 5%;
+    }
+    
+    .center-of-excellence .infographic .section-12 img {
+        text-align: center;
+        float: none;
+        margin: auto;
+        margin-left: 10%;
+    }
+    
+    .center-of-excellence .infographic .section-12 p {
+        font-size: 3.4em;
+        padding-top: 0%;
+        color: #fff;
+        margin-bottom: 0%;
+        text-align: center;
+    }
+    
+    .center-of-excellence .infographic .section-12 h3 {
+        text-align: center;
+    }
+    
+    .center-of-excellence .infographic .section-12 h1 {
+        text-align: center;
+    }
+    
+    .center-of-excellence .infographic .section-13 {
+        font-size: 2.5vw;
+        width: 100%;
+        margin-top: 1180%;
+        left: 0;
+        padding: 5%;
+    }
+    
+    .center-of-excellence .infographic .section-13 h3 {
+        font-size: 1.8em;
+        letter-spacing: .1em;
+        margin-bottom: 5%; 
+        text-align: center;
+        padding: 29% 0% 0% 0%;
+    }
+    
+    .center-of-excellence .infographic .section-14 {
+        font-size: 2.5vw;
+        width: 100%;
+        margin-top: 1280%;
+        left: 0;
+        padding: 5%;
+    }
+    
+    .center-of-excellence .infographic .section-15 {
+        font-size: 2.5vw;
+        width: 100%;
+        margin-top: 1370%;
+        left: 0;
+        padding: 5%;
+    }
+    
+    .center-of-excellence .infographic .section-16 {
+        font-size: 10px;
+        width: 100%;
+        font-size: 2.5vw;
+        width: 100%;
+        margin-top: 1520%;
+        left: 0;
+        padding: 5%;
+        text-align: center;
+    }
+    
+    .center-of-excellence .infographic .section-16 img {
+        float: none;
+    }
+
+    .center-of-excellence .infographic .section-16 h1 {
         padding-top: 0%;
         text-align: center;
     }
