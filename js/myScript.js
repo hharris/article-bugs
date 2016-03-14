@@ -42,9 +42,6 @@ $(document).ready(function(){
     $(window).resize(infoheight);
     **/
     
-    $(infoheight);
-    $(window).resize(infoheight);
-    
     (function($) {
 
           /**
